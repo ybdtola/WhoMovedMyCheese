@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cheese Toon
+* source:	https://sketchfab.com/3d-models/cheese-toon-8033038875de41c69ca281f92ab94aa6
+* author:	adLucem (https://sketchfab.com/lois.aubree)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cheese Toon" (https://sketchfab.com/3d-models/cheese-toon-8033038875de41c69ca281f92ab94aa6) by adLucem (https://sketchfab.com/lois.aubree) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

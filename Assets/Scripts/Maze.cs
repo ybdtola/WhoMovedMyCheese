@@ -112,12 +112,12 @@
                     if (z == 0) south = true;
 
                     // create entrance and exit
-                    if(x == 0 && z == 0){
-                        west = false;
-                    }
-                    if(x == width - 1 && z == depth - 1){
-                        east = false;
-                    }
+                        //if(x == 0 && z == 0){
+                        //    west = false;
+                        //}
+                        //if(x == width - 1 && z == depth - 1){
+                        //    east = false;
+                        //}
 
 
                     // call the Initialize function to buid maze
