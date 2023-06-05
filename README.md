@@ -47,9 +47,11 @@ pip install torch torchvision torchaudio
 ```
 
 ## Running the project
-1. Start the Unity Editor
-2. Drag the Maze Scene from the Project Panel into Hierarchy  
-3. Locate the `Brains folder` in the project panel
-4. Drag brain model into the Model in the Behaviour Parameters Script under the Inspector Panel.
+1. Start the Unity Editor.
+2. Drag the Maze Scene from the Project panel into the Hierarchy panel. 
+3. Locate the `Brains folder` in the project panel.
+4. Drag brain model into the Model in the Behaviour Parameters Script under the Inspector panel.
 5. Set Behaviour type to `Inference`.
 
+
+## Peace!✌️
