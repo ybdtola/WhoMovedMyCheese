@@ -1,23 +1,31 @@
 using UnityEngine;
 
+/// <summary>
+/// MazeCellObject2 class is responsible for drawing the walls
+/// </summary>
 public class MazeCellObject : MonoBehaviour
 {
-    /*
-    --------------------------------------------------------------------
-    1. Initialize the class variables and properties
-    --------------------------------------------------------------------
-    */
-    public class MazeCell
+    public GameObject northWall;
+    public GameObject southWall;
+    public GameObject eastWall;
+    public GameObject westWall;
+    public MeshRenderer floor;
+
+    /// <summary>
+    /// MazeCell2 class is responsible for generating the maze
+    /// </summary>
+    public class MazeCell2
     {
         public bool visited;
         public Vector2Int position;
-
         public bool northWall;
         public bool eastWall;
 
-
-        //maze cell constructor
-        public MazeCell(Vector2Int Position)
+        /// <summary>
+        /// Function to initialize the maze cell
+        /// </summary>
+        /// <param name="Position"></param>
+        public MazeCell2(Vector2Int Position)
         {
             visited = false;
             position = new Vector2Int(Position.x, Position.y);
@@ -26,14 +34,13 @@ public class MazeCellObject : MonoBehaviour
         }
     }
 
-    // initialize the walls prefab game objects
-    [SerializeField] GameObject northWall;
-    [SerializeField] GameObject southWall;
-    [SerializeField] GameObject eastWall;
-    [SerializeField] GameObject westWall;
-    [SerializeField] MeshRenderer floor;
-
-    //function to draw the walls
+    /// <summary>
+    /// Function to initialize the walls
+    /// </summary>
+    /// <param name="north"></param>
+    /// <param name="south"></param>
+    /// <param name="east"></param>
+    /// <param name="west"></param>
     public void Initialize(bool north, bool south, bool east, bool west)
     {
         northWall.SetActive(north);
@@ -41,7 +48,6 @@ public class MazeCellObject : MonoBehaviour
         eastWall.SetActive(east);
         westWall.SetActive(west);
     }
-    
 }
 
 
