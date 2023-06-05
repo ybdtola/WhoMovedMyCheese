@@ -22,7 +22,7 @@
 
 ## Setting up the environments
 
-**To run this project on your machine, follow these steps:
+**To run this project on your machine, follow these steps:**
 
 #### Create a virtual environment 
 ```bash
