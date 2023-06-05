@@ -24,15 +24,15 @@
 
 **To run this project on your machine, follow these steps:**
 
-#### Create a virtual environment 
+#### 1. Create a virtual environment 
 ```bash
 python -m venv env
 ```
-#### Activate the virtual environment
+#### 2. Activate the virtual environment
 ```sh
 source env/bin/activate
 ```
-#### Install `mlagents`
+#### 3. Install `mlagents`
 ```sh
 python -m pip install mlagents==0.30.0
 ```
@@ -41,7 +41,7 @@ python -m pip install mlagents==0.30.0
 mlagents-learn --help
 ```
 
-#### Install `pytorch`
+#### 4. Install `pytorch`
 ```bash
 pip install torch torchvision torchaudio
 ```
