@@ -1,4 +1,4 @@
-# WhoMovedMyCheese
+# Who Moved My Cheese
 
 
 ![Maze](Assets/Image/ui.png)
