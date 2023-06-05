@@ -54,4 +54,6 @@ pip install torch torchvision torchaudio
 5. Set Behaviour type to `Inference`.
 
 
-## Peace!✌️
+
+
+#### Peace!✌️
