@@ -11,9 +11,9 @@
 
 ## Requirements 
 
-- Python 3.9.12 [download here](https://www.python.org/downloads/)
-- Unity Hub (Unity 2021.3.11f1) [download here](https://unity.com/download)
-- Unity ML-Agents Toolkit (ML-Agents Toolkit v2.3.0-exp.3). 
+- Python 3.9.12 [download here](https://www.python.org/downloads/).
+- Unity Hub (Unity 2021.3.11f1) [download here](https://unity.com/download).
+- Unity ML-Agents Toolkit (ML-Agents Toolkit v2.3.0-exp.3).
 
 ## Install com.unity.ml-agents package
 
